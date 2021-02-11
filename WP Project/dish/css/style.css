@@ -1,0 +1,480 @@
+
+.color{
+    color: #F94C25;
+}
+.fa { font-family: 'FontAwesome' !important; }
+/* header start */
+
+header {
+    height: 100vh;
+    position: relative;
+    
+}
+header .x{
+    position:absolute;
+    width:77%;
+    height:auto;
+    right:-268px;
+    top:-276px;
+    
+    
+}
+nav{
+    position:fixed;
+    width:100%;
+    z-index: 20;
+    
+}
+
+.back-nav{
+    height: 95px;
+    background-color:#fff;
+    transition: 1s;
+    
+    
+    
+}
+
+
+.navigation{
+    
+    padding:25px 0;
+}
+
+.navigation .menu{
+    margin-top: 4px;
+}
+.navigation .menu ul{}
+.navigation .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 12px;
+
+}
+
+.navigation .menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight:600;
+    padding:5px 0;
+    
+}
+.navigation .menu ul li a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background:#F94C25;
+    transition: .3s;
+}
+
+.navigation .menu ul li a:hover:after {
+    width: 100%;
+    
+}
+
+ .navigation button{
+    margin-top: 4px;
+    border-radius:26px;
+    text-transform: capitalize;
+    font-weight:500;
+    padding: 6px 33px;
+    background-color: #F94C25;
+    border:0;
+}
+ .navigation button:hover{
+    background-color: #F94C25;
+    color: #000;
+}
+
+.header-content{
+    padding-top: 300px ;
+    padding-bottom: 300px;
+}
+.header-content h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.header-content span{
+    color: #F94C25;
+}
+.header-content h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.header-content p{
+    font-size: 15px;
+    margin-bottom: 85px;
+}
+.header-content .prime{
+    background-color: #F94C25;
+    border: 0px;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    border-radius:30px;
+    
+}
+.header-content .prime:hover{
+    background-color: #F94C25;
+    
+}
+
+
+/* end header */
+
+/* featured-food */
+.featured-food{
+    padding: 100px 0;
+    position: relative;
+}
+.featured-food h1{
+    font-size:30px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.featured-food p{
+    font-size: 18px;
+    
+}
+.featured-food .food-line:before{
+    content: "";
+    position: absolute;
+    width: 77px;
+    height: 4px;
+    top:245px;
+
+    background-color: #F94C25;
+}
+
+.featured-food h3:before{
+    content: "";
+    position: absolute;
+    width: 77px;
+    height: 4px;
+    top:74%;
+
+    background-color: #F94C25;
+}
+.food-items{
+    margin-top: 130px;
+}
+.food-items img{
+    margin-bottom:85px;
+    width: 85%;
+    
+}
+.food-items h3{
+    margin-bottom:25px;
+    text-transform: capitalize; 
+    font-size: 23px;
+}
+.food-items p{
+    font-size:18px;
+}
+.food-items .hov{
+    transition: 1s;
+}
+.food-items .hov:hover{
+    transform:scale(1.2);
+}
+/* end featured food */
+.acc-img{
+    background-image: url('../image/bg-img.jpg');
+    background-size: 1168px;
+    height:auto;
+    position: relative;
+    
+}
+/* service */
+.service{
+    padding: 100px 0;
+}
+.service h2{
+    text-transform:capitalize;
+    font-size: 55px;
+    font-weight:500;
+    margin-bottom: 25px;
+}
+.service p{
+    font-size: 18px;
+    
+}
+.service .service-line:before{
+    content: "";
+    position: absolute;
+    width: 77px;
+    height: 4px;
+    top:141px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #F94C25;
+}
+.service-list{
+    margin-top: 120px;
+   
+    
+}
+.service-list .serve{
+    height: 80px;
+    margin-bottom: 23px;
+}
+.service-list h3{
+    font-size: 20px;
+    text-transform: uppercase;
+   
+    
+}
+.service-list p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+/* end-service */
+
+/* our-menu */
+.our-menu{
+        padding-top: 130px;
+}
+.our-menu h2{
+    text-transform:capitalize;
+    font-size: 55px;
+    font-weight:500;
+    margin-bottom: 25px;
+}
+.our-menu p{
+    font-size: 18px;
+    
+}
+.our-menu .our-line:before{
+    content: "";
+    position: absolute;
+    width: 77px;
+    height: 4px;
+    top:141px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #F94C25;
+}
+.sec-menu{
+    margin-top:150px;
+}
+.sec-menu ul{}
+.sec-menu ul li{
+    list-style: none;
+    display: inline-block;
+   margin: 20px;
+}
+.sec-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    border: 4px double #fff;
+    padding: 2px;
+    
+}
+
+.sec-menu ul li a:hover{
+   color: #fff;
+   border:4px double #fff;
+   background: #F94C25;
+  
+   
+}
+.menu-items{
+    padding: 50px;
+    
+   
+}
+.menu-items .plate-triple img{
+    position: absolute;
+    top:10px;
+    
+}
+.menu-items .plate-triple img:nth-child(2){
+    position: absolute;
+    top: 213px;
+    left: -94px;
+}
+.menu-items .plate-triple img:nth-child(3){
+    position: absolute;
+    top: 213px;
+    left: 139px;
+}
+
+.menu-items .menu-price{
+    margin-bottom: 20px;
+}
+.menu-items .triple-plate{
+   padding-top: 75px;
+}
+.menu-items .menu-price img{
+    float: left;
+    margin-right: 10px;
+}
+
+.menu-items .menu-price h5{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 0;
+}
+.menu-items .menu-price p{
+    font-size: 13px;
+    margin: 0;
+    color: rgb(167, 167, 167);
+}
+.menu-items .menu-price span{}
+
+/* end-menu */
+/* survey */
+.survey{
+    padding-bottom: 80px;
+}
+.survey img{
+    width: 100%;
+}
+ .survey h1{
+    font-size:35px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.survey .survey-content{
+    padding: 80px;
+}
+.survey p{
+    font-size: 14px;
+    color:#515151;
+    padding: 10px 0;
+}
+ .survey .prime{
+    background-color: #F94C25;
+    border: 0px;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    border-radius:30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+ .survey .prime:hover{
+    background-color: #F94C25;
+    
+}
+/* end of survey */
+/* registration */
+.registration{
+    padding: 80px 0;
+}
+.registration h1{
+    font-size:35px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.registration .prime{
+    background-color: #F94C25;
+    border: 0px;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    border-radius:30px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+ .registration .prime:hover{
+    background-color: #F94C25;
+    
+}
+.registration .form-box{
+   
+}
+.registration .form-box .inputBox{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.registration .form-box .input{
+    
+    width: 100%;
+    margin-left: 35px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    
+    border-bottom:2px solid #F94C25;
+}
+.registration .form-box .inputText{
+    position:absolute;
+    top:5px;
+    margin-left: 35px;
+    transition: 0.5s;
+    color: #cccccc;
+    pointer-events:none;
+}
+.focus .inputText{
+    transform: translateY(-20px);
+    position: absolute;
+    font-size: 14px;
+    opacity: 1;
+    color: #F94C25!important;
+}
+.form form{
+    margin-left: 10px;
+}
+/* end of registration */
+/* footer */
+.footer-area{
+    padding: 100px 0;
+}
+.footer-area h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer-area .resturant{
+   margin-left: 115px
+}
+.footer-area .menu-footer ul{
+     margin: 0;
+    padding: 0;
+}
+.footer-area .menu-footer ul li{
+    list-style-type: none;
+    line-height: 38px;
+}
+.footer-area .menu-footer ul li a{
+    text-decoration: none;
+    color: #000;
+    
+    text-transform: capitalize;
+}
+.footer-area .social-media{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.footer-area .social-media ul li{
+    display: inline;
+    padding: 0 15px; 
+}
+.footer-area .social-media ul li a{
+    text-decoration: none;
+    color:#F94C25;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.footer-area .social-media ul li a:hover{
+    color: #000;
+}
+.copyright{
+    border-top:1px solid #ced1d6;
+    font-size: 12px;
+    padding-top: 13px;
+}
+/* end-footer */
